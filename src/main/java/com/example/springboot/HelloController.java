@@ -8,7 +8,7 @@ public class HelloController {
 
 	@RequestMapping("/")
 	public String index() {
-		return "Greetings from what branch!";
+		return "Greetings from the feature branch!";
 	}
 
 }

@@ -16,4 +16,4 @@ spec:
     git:
       url: https://github.com/fabianbrash/tanzu-java-web-app.git
       ref:
-        branch: feature
+        branch: main

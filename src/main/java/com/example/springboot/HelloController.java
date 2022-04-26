@@ -8,7 +8,7 @@ public class HelloController {
 
 	@RequestMapping("/")
 	public String index() {
-		return "Now we are live updating...!";
+		return "Hello + TAP!";
 	}
 
 }

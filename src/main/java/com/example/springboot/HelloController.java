@@ -11,4 +11,10 @@ public class HelloController {
 		return "Hello + TAP!";
 	}
 
+
+	@RequestMapping("/hello")
+	public String hello() {
+		return "Hello from the hello route";
+	}
+
 }

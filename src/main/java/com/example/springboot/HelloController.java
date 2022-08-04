@@ -14,7 +14,7 @@ public class HelloController {
 
 	@RequestMapping("/hello")
 	public String hello() {
-		return "Hello from the hello route";
+		return "Hello from the hello route, again";
 	}
 
 }

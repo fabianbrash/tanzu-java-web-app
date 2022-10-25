@@ -17,4 +17,9 @@ public class HelloController {
 		return "Hello from the hello route";
 	}
 
+	@RequestMapping("/goodbye")
+	public String goodbye() {
+		return "Goodbye from the goodbye route";
+	}
+
 }
